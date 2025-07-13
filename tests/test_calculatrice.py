@@ -1,9 +1,4 @@
 import unittest
-import sys
-import os
-# Ajouter dynamiquement le chemin vers le dossier src/
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__),'..', 'src')))
-
 from src.calculatrice import addition, soustraction, multiplication, division
 
 class TestCalculatrice(unittest.TestCase):
